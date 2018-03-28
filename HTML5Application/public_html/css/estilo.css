@@ -1,0 +1,5 @@
+.encabezado {
+    background: url(../img/estadio.jpg) no-repeat top center;
+    background-size: cover;
+    height: 40em;
+}
