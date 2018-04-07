@@ -56,12 +56,8 @@ nav .nav-link:hover {
     color: #FA0012;
 }
 
-.partidos {
-    padding: 10em;
-}
-
-.prueba2 {
-    background: url("../img/geometry.png");
+.partido {
+    font-size: 1.5em;
 }
 
 .fecha {
@@ -73,8 +69,6 @@ footer {
     background-color: #041D57;
     color: white;
     height: 4em;
-
-
 }
 
 footer p {
