@@ -1,0 +1,68 @@
+[
+    { 
+        "participantes": 
+                [
+                    {
+                        "imagen": "egy.png",
+                        "nombre": "Egipto",
+                        "descripción": "Los Faraones regresarán a la cita mundial tras 28 años de ausencia, luego de disputar las dos ediciones organizadas por Italia (1934 y 1990).",
+                        "grupo": "A",
+                        "continente": "África"
+                    },
+                    {
+                        "imagen": "rus.png",
+                        "nombre": "Rusia",
+                        "descripción": "El país anfitrión de 2018 cayó en la primera fase en los tres Mundiales que ha disputado como Rusia (1994, 2002 y 2014). Su mejor resultado como Unión Soviética fue la plaza de semifinalista obtenida en Inglaterra 1966.",
+                        "grupo": "A",
+                        "continente": "Europa"
+                    },
+                    {
+                        "imagen": "ksa.png",
+                        "nombre": "Arabia Saudita",
+                        "descripción": "Rusia 2018 marcará la quinta participación de Arabia Saudí en una fase final mundialista, luego de disputar previamente las ediciones de EEUU 1994, Francia 1998, Corea/Japón 2002 y Alemania 2006.",
+                        "grupo": "A",
+                        "continente": "Asia"
+                    },
+                    {
+                        "imagen": "uru.png",
+                        "nombre": "Uruguay",
+                        "descripción": "Uruguay se aseguró un lugar en la Copa Mundial de la FIFA Rusia 2018™ luego de vencer 4-2 a Bolivia en la última jornada del clasificatorio sudamericano. Si bien desde jornadas antes ya estaba cerca de sellar pasaje, tuvo que esperar al final y quedar en el segundo puesto de la eliminatoria.  ",
+                        "grupo": "A",
+                        "continente": "Sudámerica"
+                    }
+                ]
+    },
+    { 
+        "participantes": 
+                [
+                    {
+                        "imagen": "por.png",
+                        "nombre": "Portugal",
+                        "descripción": "Los vigentes campeones de Europa sellaron billete directo a Rusia 2018, la que será la séptima Copa Mundial de la FIFA de su historia. ",
+                        "grupo": "B",
+                        "continente": "Europa"
+                    },
+                    {
+                        "imagen": "esp.png",
+                        "nombre": "España",
+                        "descripción": "La Roja, campeona del mundo en Sudáfrica 2010, clasificó para su 15ª Copa Mundial de la FIFA como ganadora invicta del Grupo G de las eliminatorias europeas a Rusia 2018.",
+                        "grupo": "B",
+                        "continente": "Europa"
+                    },
+                    {
+                        "imagen": "mar.png",
+                        "nombre": "Marruecos",
+                        "descripción": "Marruecos disputará en Rusia 2018 su quinta Copa Mundial de la FIFA™, a la que vuelve después de 20 años de ausencia. Los octavos de México 1986 son su techo mundialista, un objetivo a buen seguro motivante para una generación con amplia experiencia en clubes europeos.",
+                        "grupo": "B",
+                        "continente": "África"
+                    },
+                    {
+                        "imagen": "irn.png",
+                        "nombre": "RI de Irán",
+                        "descripción": "Irán es una de las potencias tradicionales del fútbol asiático, y lo ha vuelto a demostrar clasificándose por quinta vez para la Copa Mundial de la FIFA™. El equipo Melli lo ha hecho además como primera selección de Asia en conseguir su billete a Rusia 2018.",
+                        "grupo": "B",
+                        "continente": "Asia"
+                    }
+                ]
+    }
+]

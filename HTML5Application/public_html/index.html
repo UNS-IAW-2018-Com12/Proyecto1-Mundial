@@ -67,34 +67,22 @@
             </div>
         </div>
 
-        <div class="container prueba">
+        <div class="container">
             <div class="row group-tabs">
 
                 <div class="col-12">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link active" id="grupo-a-tab" data-toggle="tab" href="#grupoa" role="tab" aria-controls="grupo a" aria-selected="true">Grupo A</a>
+                            <a class="nav-link active" id="grupo-a-tab" data-toggle="tab" href="#grupoa">Grupo A</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="grupo-b-tab" data-toggle="tab" href="#grupob" role="tab" aria-controls="grupo b" aria-selected="false">Grupo B</a>
+                            <a class="nav-link" id="grupo-b-tab" data-toggle="tab" href="#grupob">Grupo B</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="grupo-c-tab" data-toggle="tab" href="#grupoc" role="tab" aria-controls="grupo c" aria-selected="false">Grupo C</a>
+                            <a class="nav-link" id="grupo-c-tab" data-toggle="tab" href="#grupoc">Grupo C</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="grupo-d-tab" data-toggle="tab" href="#grupod" role="tab" aria-controls="grupo d" aria-selected="false">Grupo D</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="grupo-e-tab" data-toggle="tab" href="#grupoe" role="tab" aria-controls="grupo e" aria-selected="false">Grupo E</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="grupo-f-tab" data-toggle="tab" href="#grupof" role="tab" aria-controls="grupo f" aria-selected="false">Grupo F</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="grupo-g-tab" data-toggle="tab" href="#grupog" role="tab" aria-controls="grupo g" aria-selected="false">Grupo G</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="grupo-h-tab" data-toggle="tab" href="#grupoh" role="tab" aria-controls="grupo h" aria-selected="false">Grupo H</a>
+                            <a class="nav-link" id="grupo-d-tab" data-toggle="tab" href="#grupod">Grupo D</a>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +92,7 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="grupoa" role="tabpanel" aria-labelledby="grupo-a-tab">
                             <div class="table-responsive">
-                                <table class="table">
+                                <table class="table" id="tabla-grupo-1">
                                     <thead class="thead-dark">
                                         <tr>
                                             <th scope="col">A</th>
@@ -120,913 +108,157 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <th scope="row" class="align-middle">1</th>
-                                            <td> 
-                                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="team-name">
-                                                    <img src="img/banderas/egy.png" class="img-fluid img-flag"/> Egipto
-                                                </a>
-                                            </td>
-                                            <td>3</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>2</td>
-                                            <td>0</td>
-                                            <td>2</td>
-                                        </tr>   
-                                        <tr>
-                                            <th scope="row" class="align-middle">2</th>
-                                            <td>
-                                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="team-name">
-                                                    <img src="img/banderas/rus.png" class="img-fluid img-flag"/> Rusia
-                                                </a>
-                                            </td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                        </tr>  
-                                        <tr>
-                                            <th scope="row" class="align-middle">3</th>
-                                            <td>
-                                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="team-name">
-                                                    <img src="img/banderas/ksa.png" class="img-fluid img-flag"/> Arabia Saudita
-                                                </a>
-                                            </td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                        </tr>  
-                                        <tr>
-                                            <th scope="row" class="align-middle">4</th>
-                                            <td>
-                                                <a href="#" data-toggle="modal" data-target="#exampleModal" class="team-name">
-                                                    <img src="img/banderas/uru.png" class="img-fluid img-flag"/> Uruguay
-                                                </a>
-                                            </td>
-                                            <td>0</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>2</td>
-                                            <td>-2</td>
-                                        </tr>  
                                     </tbody>
                                 </table>
                             </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel"><img src="img/banderas/egy.png" class="img-flag"/> Egipto</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p class="lead">
-                                                Los Faraones regresarán a la 
-                                                cita mundial tras 28 años de 
-                                                ausencia, luego de disputar las 
-                                                dos ediciones organizadas por 
-                                                Italia (1934 y 1990).
-                                            </p>
-                                            <p>
-                                                Participaciones: 2
-                                            </p>
-                                            <p>
-                                                Títulos: 0
-                                            </p>
-                                            <p>
-                                                Ranking FIFA: 31
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center my-4">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-a-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Ver Partidos
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="grupo-a-partidos">
-                                <div class="card card-body text-center prueba2">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h1>
-                                                    PARTIDOS GRUPO A
-                                                </h1>
-                                            </div>
-
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/egy.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Egipto
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                14/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Rusia
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/rus.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-1">
-                                                <div class="btn-group">
-                                                    <button class="btn btn-secondary"><i class="fas fa-plus-circle"></i></button>
-                                                    <button class="btn btn-secondary"><i class="fas fa-trash"></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/uru.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Uruguay
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                15/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Arabia Saudita
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/ksa.png" class="img-flag"/>
-                                            </div>
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/egy.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Egipto
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                19/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Uruguay
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/uru.png" class="img-flag"/>
-                                            </div>
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/ksa.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Arabia Saudita
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                20/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Rusia
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/rus.png" class="img-flag"/>
-                                            </div>
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/ksa.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Arabia Saudita
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                25/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Egipto
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/egy.png" class="img-flag"/>
-                                            </div>
-                                        </div>
-                                        <div class="row my-5">
-                                            <div class="col-1 offset-1">
-                                                <img src="img/banderas/uru.png" class="img-flag"/>
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Uruguay
-                                            </div>
-                                            <div class="col-2 fecha">
-                                                25/06
-                                            </div>
-                                            <div class="col-3 team-name">
-                                                Rusia
-                                            </div>
-                                            <div class="col-1">
-                                                <img src="img/banderas/rus.png" class="img-flag"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="tab-pane fade show" id="grupob">
+                            <div class="table-responsive">
+                                <table class="table" id="tabla-grupo-2">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">B</th>
+                                            <th scope="col">Equipo</th>
+                                            <th scope="col">Pts</th>
+                                            <th scope="col">PJ</th>
+                                            <th scope="col">PG</th>
+                                            <th scope="col">PE</th>
+                                            <th scope="col">PP</th>
+                                            <th scope="col">GF</th>
+                                            <th scope="col">GC</th>
+                                            <th scope="col">+/-</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>                                     
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="grupob" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">B</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/por.png"/> Portugal</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/esp.png"/> España</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/mar.png"/> Marruecos</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/irn.png"/> RI de Irán</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-b-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="grupo-b-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
+                        <div class="tab-pane fade show" id="grupoc">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">C</th>
+                                            <th scope="col">Equipo</th>
+                                            <th scope="col">Pts</th>
+                                            <th scope="col">PJ</th>
+                                            <th scope="col">PG</th>
+                                            <th scope="col">PE</th>
+                                            <th scope="col">PP</th>
+                                            <th scope="col">GF</th>
+                                            <th scope="col">GC</th>
+                                            <th scope="col">+/-</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>                                      
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="grupoc" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/fra.png" class="img-fluid"/> Francia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/aus.png"/> Australia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/per.png"/> Perú</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/den.png"/> Dinamarca</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-c-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="grupo-c-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
+                        <div class="tab-pane fade show" id="grupod" role="tabpanel">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">D</th>
+                                            <th scope="col">Equipo</th>
+                                            <th scope="col">Pts</th>
+                                            <th scope="col">PJ</th>
+                                            <th scope="col">PG</th>
+                                            <th scope="col">PE</th>
+                                            <th scope="col">PP</th>
+                                            <th scope="col">GF</th>
+                                            <th scope="col">GC</th>
+                                            <th scope="col">+/-</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>                                      
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="grupod" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/arg.png"/> Argentina</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/isl.png"/> Islandia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/cro.png"/> Croacia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/nga.png"/> Nigeria</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-d-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
+                    </div>
 
-                            <div class="collapse" id="grupo-d-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="grupoe" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/bra.png"/> Brasil</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/sui.png"/> Suiza</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/crc.png"/> Costa Rica</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/srb.png"/> Serbia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-e-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
 
-                            <div class="collapse" id="grupo-e-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="grupof" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/ger.png"/> Alemania</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/mex.png"/> México</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/swe.png"/> Suecia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/kor.png"/> República de Corea</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-f-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
+                </div>
+            </div>
+        </div>
 
-                            <div class="collapse" id="grupo-f-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="grupog" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/bel.png"/> Bélgica</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/pan.png"/> Panama</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/tun.png"/> Túnez</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/eng.png"/> Inglaterra</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-g-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
 
-                            <div class="collapse" id="grupo-g-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="grupoh" role="tabpanel" aria-labelledby="grupo-a-tab">
-                            <table class="table">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Equipo</th>
-                                        <th scope="col">Pts</th>
-                                        <th scope="col">PJ</th>
-                                        <th scope="col">PG</th>
-                                        <th scope="col">PE</th>
-                                        <th scope="col">PP</th>
-                                        <th scope="col">GF</th>
-                                        <th scope="col">GC</th>
-                                        <th scope="col">+/-</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><img src="img/banderas/pol.png"/> Polonia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>   
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><img src="img/banderas/sen.png"/> Senegal</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><img src="img/banderas/col.png"/> Colombia</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><img src="img/banderas/jpn.png"/> Japón</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>  
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#grupo-h-partidos" aria-expanded="false" aria-controls="collapseExample">
-                                    Partidos
-                                </button>
-                            </div>
-
-                            <div class="collapse" id="grupo-h-partidos">
-                                <div class="card card-body text-center">
-                                    <p>
-                                        19/07/18 18:00 Egipto - Rusia
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Uruguay
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Rusia - Arabia Saudita
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Arabia Saudita - Egipto
-                                    </p>
-                                    <p>
-                                        19/07/18 18:00 Uruguay - Rusia
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal-equipo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
         
+        <div class="modal fade" id="modal-equipo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="modal-equipo3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="modal-equipo4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <footer>
             <div class="container">
                 <div class="row text-center">
@@ -1044,6 +276,8 @@
         <script src="js/jquery-3.3.1.js"></script>
         <script src="js/bootstrap.js"></script>
         <!--  Font Awesome (Icons) -->
-        <script defer src="js/fontawesome-all.js"></script>
+        <script src="js/fontawesome-all.js"></script>
+        <!--  Construcción página -->
+        <script src="js/buildpage.js"></script>
     </body>
 </html>
