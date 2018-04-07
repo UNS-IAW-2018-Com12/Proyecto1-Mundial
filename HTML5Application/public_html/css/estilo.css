@@ -1,5 +1,85 @@
+html, body {
+    height:100%;
+} 
+
 .encabezado {
-    background: url(../img/estadio.jpg) no-repeat top center;
-    background-size: cover;
-    height: 40em;
+    background: linear-gradient(to bottom right, #0E3D8C, #131574);
+    padding: 2em 1em;
+    margin-bottom: 0;
+}
+
+.img-flag {
+    border: solid black 1px;
+}
+
+.group-tabs {
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+.team-name {
+    font-size: 2em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.team-name:hover {
+    text-decoration: none;
+}
+
+nav {
+    margin-bottom: 3em;
+}
+
+nav .nav-link {
+    font-size: 2em;
+    color: #A4F200;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+nav .nav-link:hover {
+    color: #6A9B04;
+    text-decoration: underline;
+}
+
+.header-text {
+    color: red;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+}
+
+.header-text h2 {
+    color: #FA0012;
+}
+
+.partidos {
+    padding: 10em;
+}
+
+.prueba {
+
+}
+
+.prueba2 {
+    background: url("../img/geometry.png");
+}
+
+.fecha {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #041D57;
+    color: white;
+    height: 4em;
+
+
+}
+
+footer p {
+    margin: 0;
+    padding-top: 1em;
 }
