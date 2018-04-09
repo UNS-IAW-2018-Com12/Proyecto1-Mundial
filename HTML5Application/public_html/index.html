@@ -11,7 +11,12 @@
         <!-- Estilo personalizado CSS -->
         <link href="css/estilo.css" rel="stylesheet">
 
-        <title>Proyecto 1 - Mundial</title>
+        <!-- Page icon -->
+        <link rel="icon" 
+              type="image/png" 
+              href="img/logopromun.png">
+
+        <title>PROMUN</title>
     </head>
     <body>
 
@@ -50,26 +55,33 @@
                         </nav>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-8 align-self-center">
-                        <div class="header-text text-center">
-                            <h2>14 JUNIO - 15 JULIO</h2>
-                            <h1>El mundial de Rusia está acá.</h1>
-                            <p class="lead">¡Ingresá tus pronósticos y ganale a tus amigos!</p>
-                            <img src="img/g4010.png" class="img-fluid"/>
-                        </div>
+            </div>
+        </div>
 
-                    </div>
-                    <div class="col-4">
-                        <img src="img/copa2.png" class="img-fluid"/>
-                    </div>
+        <div class="container-fluid">
+            <div class="row horizontal-panel-1 justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <h2 class="text-center">PROMUN</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/copa2.png" class="img-fluid">
                 </div>
             </div>
         </div>
 
         <div class="container">
+
+
+
+
+
+
             <div class="row group-tabs">
-                <div class="col-12">
+                <div class="col-10 offset-1">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
                             <a class="nav-link active" id="grupo-a-tab" data-toggle="tab" href="#grupoa">Grupo A</a>
@@ -83,28 +95,28 @@
                         <li class="nav-item">
                             <a class="nav-link" id="grupo-d-tab" data-toggle="tab" href="#grupod">Grupo D</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="grupo-e-tab" data-toggle="tab" href="#grupoe">Grupo E</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="grupo-f-tab" data-toggle="tab" href="#grupof">Grupo F</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="grupo-g-tab" data-toggle="tab" href="#grupog">Grupo G</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="grupo-h-tab" data-toggle="tab" href="#grupoh">Grupo H</a>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="grupoa" role="tabpanel" aria-labelledby="grupo-a-tab">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-10 offset-1">
                             <div class="table-responsive">
                                 <table class="table" id="tabla-grupo-1">
                                     <thead class="thead-dark">
-                                        <tr>
-                                            <th scope="col">A</th>
-                                            <th scope="col">Equipo</th>
-                                            <th scope="col">Pts</th>
-                                            <th scope="col">PJ</th>
-                                            <th scope="col">PG</th>
-                                            <th scope="col">PE</th>
-                                            <th scope="col">PP</th>
-                                            <th scope="col">GF</th>
-                                            <th scope="col">GC</th>
-                                            <th scope="col">+/-</th>
-                                        </tr>
                                     </thead>
                                     <tbody>
                                     </tbody>
@@ -118,22 +130,20 @@
                                     <li class="list-group-item partido">    
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-3 offset-1">
-                                                    <img src="img/flags/rus.png" class="img-flag"> <span class="equipo">Rusia</span>
+                                                <div class="col-md-3 order-md-1 offset-md-1 col-sm-6 order-sm-1 col-6 order-1">
+                                                    <img src="img/flags/rus.png" class="img-flag"><span class="equipo">Rusia</span>
                                                 </div>
-                                                <div class="col-1 text-center">
+                                                <div class="col-md-1 order-md-2 col-sm-4 order-sm-3 col-4 order-3 text-center">
                                                     <span>(-)</span>
                                                 </div>
-                                                <div class="col-2 text-center">
+                                                <div class="col-md-2 order-md-3 col-sm-4 order-sm-4 col-4 order-4 text-center">
                                                     18:00
                                                 </div>
-                                                <div class="col-1 text-center">
+                                                <div class="col-md-1 order-md-4 col-sm-4 order-sm-5 col-4 order-5 text-center">
                                                     <span>(-)</span>
                                                 </div>
-                                                <div class="col-3">
-                                                    <div class="d-flex flex-row-reverse">
-                                                        <img src="img/flags/ksa.png" class="img-flag"><span class="equipo">Arabia Saudita</span>
-                                                    </div>                                                
+                                                <div class="col-md-3 order-md-5 col-sm-6 order-sm-2 col-6 order-2 text-right">
+                                                    <span class="equipo">Arabia Saudita</span><img src="img/flags/ksa.png" class="img-flag">
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -195,22 +205,20 @@
                                     <li class="list-group-item partido">    
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-3 offset-1">
-                                                    <img src="img/flags/egy.png" class="img-flag"> <span class="equipo">Egipto</span>
+                                                <div class="col-md-3 order-md-1 col-sm-6 order-sm-1 offset-1">
+                                                    <img src="img/flags/egy.png" class="img-flag"><span class="equipo">Egipto</span>
                                                 </div>
-                                                <div class="col-1 text-center">
+                                                <div class="col-md-1 order-md-2 col-sm-4 order-sm-3 text-center">
                                                     <span>(-)</span>
                                                 </div>
-                                                <div class="col-2 text-center">
+                                                <div class="col-md-2 order-md-3 col-sm-4 order-sm-4 text-center">
                                                     17:00
                                                 </div>
-                                                <div class="col-1 text-center">
+                                                <div class="col-md-1 order-md-4 col-sm-4 order-sm-5 text-center">
                                                     <span>(-)</span>
                                                 </div>
-                                                <div class="col-3">
-                                                    <div class="d-flex flex-row-reverse">
-                                                        <img src="img/flags/uru.png" class="img-flag"><span class="equipo">Uruguay</span>
-                                                    </div>                                                
+                                                <div class="col-md-3 order-md-5 col-sm-6 order-sm-2 text-right">
+                                                    <img src="img/flags/uru.png" class="img-flag float-right"><span class="equipo">Uruguay</span>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -273,7 +281,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-3 offset-1">
-                                                    <img src="img/flags/rus.png" class="img-flag"> <span class="equipo">Rusia</span>
+                                                    <img src="img/flags/rus.png" class="img-flag"><span class="equipo">Rusia</span>
                                                 </div>
                                                 <div class="col-1 text-center">
                                                     <span>(-)</span>
@@ -350,7 +358,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-3 offset-1">
-                                                    <img src="img/flags/uru.png" class="img-flag"> <span class="equipo">Uruguay</span>
+                                                    <img src="img/flags/uru.png" class="img-flag"><span class="equipo">Uruguay</span>
                                                 </div>
                                                 <div class="col-1 text-center">
                                                     <span>(-)</span>
@@ -427,7 +435,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-3 offset-1">
-                                                    <img src="img/flags/ksa.png" class="img-flag"> <span class="equipo">Arabia Saudita</span>
+                                                    <img src="img/flags/ksa.png" class="img-flag"><span class="equipo">Arabia Saudita</span>
                                                 </div>
                                                 <div class="col-1 text-center">
                                                     <span>(-)</span>
@@ -504,7 +512,7 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-3 offset-1">
-                                                    <img src="img/flags/uru.png" class="img-flag"> <span class="equipo">Uruguay</span>
+                                                    <img src="img/flags/uru.png" class="img-flag"><span class="equipo">Uruguay</span>
                                                 </div>
                                                 <div class="col-1 text-center">
                                                     <span>(-)</span>
@@ -588,18 +596,6 @@
                             <div class="table-responsive">
                                 <table class="table" id="tabla-grupo-2">
                                     <thead class="thead-dark">
-                                        <tr>
-                                            <th scope="col">B</th>
-                                            <th scope="col">Equipo</th>
-                                            <th scope="col">Pts</th>
-                                            <th scope="col">PJ</th>
-                                            <th scope="col">PG</th>
-                                            <th scope="col">PE</th>
-                                            <th scope="col">PP</th>
-                                            <th scope="col">GF</th>
-                                            <th scope="col">GC</th>
-                                            <th scope="col">+/-</th>
-                                        </tr>
                                     </thead>
                                     <tbody>
                                     </tbody>
@@ -842,9 +838,9 @@
         <footer>
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-12">
+                    <div class="col-12">                       
                         <p>
-                            &copy; 2018 NOMBRE. Todos los derechos reservados.
+                            &copy; 2018 <img src="img/logopromun.png" class="img-logo"/>. Todos los derechos reservados.
                         </p>
                     </div>
                 </div>

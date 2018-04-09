@@ -3,7 +3,9 @@ html, body {
 } 
 
 .encabezado {
-    background: linear-gradient(to bottom right, #0E3D8C, #131574);
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size: cover;
+    height: 43em;
     padding: 2em 1em;
     margin-bottom: 0;
 }
@@ -30,13 +32,15 @@ html, body {
 }
 
 nav {
+    margin-top: 15em;
     margin-bottom: 3em;
 }
 
 nav .nav-link {
     font-size: 2em;
-    color: #A4F200;
-    letter-spacing: 0.1em;
+    color: blue;
+    font-weight: 700;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
 
@@ -68,10 +72,21 @@ nav .nav-link:hover {
 footer {
     background-color: #041D57;
     color: white;
-    height: 4em;
+    height: 8em;
 }
 
 footer p {
     margin: 0;
     padding-top: 1em;
+}
+
+.img-logo {
+    height: 6em;
+    width: 5em;
+}
+
+.horizontal-panel-1 {
+    background: linear-gradient(to bottom right, #0E3D8C, #131574);
+    color: white;
+    padding: 3em 1.5em 3em 1.5em;
 }

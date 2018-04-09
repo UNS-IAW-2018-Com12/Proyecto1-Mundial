@@ -30,7 +30,40 @@
                         "group": "A",
                         "continent": "Sudámerica"
                     }
-                ]
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            },
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            },
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            },
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            },
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            },
+            {
+                "equipo1": "Rusia",
+                "equipo2": "Arabia Saudita",
+                "fecha": "14 JUN."
+            }
+        ]
     },
     { 
         "teams": 

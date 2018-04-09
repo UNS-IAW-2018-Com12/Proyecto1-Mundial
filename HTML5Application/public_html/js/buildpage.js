@@ -1,23 +1,3 @@
-function buildGroupTable(groupNumber, teamNumber, team) {
-    var row = $("<tr></tr>");
-    row.append($("<td></td").addClass("align-middle").append(teamNumber + 1));
-    var img_bandera = $("<img>").attr("src", "img/flags/" + team.image).addClass("img-fluid img-flag");
-    var globalTeamNumber = (groupNumber * 4) + (teamNumber + 1);
-    var link_modal = $("<a></a>").attr("href", "#").attr("data-toggle", "modal").attr("data-target", "#modal-equipo" + globalTeamNumber);
-    var team_name = $("<span></span>").addClass("team-name align-middle").append(team.name);
-    row.append($("<td></td").append((link_modal).append(img_bandera).append(team_name)));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    row.append($("<td></td").addClass("align-middle").append("0"));
-    var id_tabla = "#tabla-grupo-" + (groupNumber + 1);
-    $(id_tabla + " > tbody").append(row);
-}
-
 function buildTeamModal(groupNumber, teamNumber, team) {
     var img_bandera_modal = $("<img>").attr("src", "img/flags/" + team.image).addClass("img-fluid img-flag");
     var globalTeamNumber = (groupNumber * 4) + (teamNumber + 1);
@@ -26,14 +6,49 @@ function buildTeamModal(groupNumber, teamNumber, team) {
     $(id_modal + " .modal-body").append($("<p></p>").addClass("lead").append(team.description));
 }
 
+function buildTableHeader(groupNumber) {
+    var id_tabla = "#tabla-grupo-" + (groupNumber + 1);
+    var tableHeader = $(id_tabla + " thead");
+    var row = $("<tr></tr>");
+    var headerFields = [String.fromCharCode(65 + groupNumber), "Equipo", "Pts", "PJ", "PG", "PE", "PP", "GF", "GC", "+/-"];
+    $.each(headerFields, function (index, field) {
+        row.append($('<th scope="col"></th>').append(field));
+    });
+    tableHeader.append(row);
+};
+
+function buildTableRow(groupNumber, teamNumber, team) {
+    var id_tabla = "#tabla-grupo-" + (groupNumber + 1);
+    var tableBody = $(id_tabla + " tbody");
+    var row = $("<tr></tr>");
+    row.append($('<th scope="row"></th').addClass("align-middle").append(teamNumber + 1));
+    var flagImage = $("<img>").attr("src", "img/flags/" + team.image).addClass("img-fluid img-flag");
+    var globalTeamNumber = (groupNumber * 4) + (teamNumber + 1);
+    var link_modal = $("<a></a>").attr("href", "#").attr("data-toggle", "modal").attr("data-target", "#modal-equipo" + globalTeamNumber);
+    var team_name = $("<span></span>").addClass("team-name align-middle").append(team.name);
+    row.append($("<td></td").append((link_modal).append(flagImage).append(team_name)));
+    for (i = 0; i < 8; i++) {
+        row.append($("<td></td").addClass("align-middle").append("0"));
+    } 
+    $(id_tabla + " > tbody").append(row);
+};
+
+function buildGroupTable(groupNumber, group) {
+    buildTableHeader(groupNumber);
+    $.each(group.teams, function (team_index, team) {
+        buildTableRow(groupNumber, team_index, team);
+        buildTeamModal(groupNumber, team_index, team);
+    });
+};
+
+function buildMatchesList(groupNumber, group) {
+    
+};
+
 function buildPage(data) {
     $.each(data, function (group_index, group) {
-        $.each(group.teams, function (team_index, team) {
-            buildGroupTable(group_index, team_index, team);
-            buildTeamModal(group_index, team_index, team);
-        });
-        $.each(group.teams, function (team_index, team) {
-        });
+        buildGroupTable(group_index, group);
+        buildMatchesList(group_index, group);
     });
 }
 ;
@@ -79,8 +94,7 @@ function ordenarTabla(tablaID) {
                 sorter: false
             }         
         }
-    });
-    
+    }); 
     $("#" + tablaID).trigger("destroy");
 }
 
