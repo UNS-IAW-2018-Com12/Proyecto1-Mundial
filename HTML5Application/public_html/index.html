@@ -113,26 +113,472 @@
                         </div>
                         <div class="col-12">
                             <h1 class="text-center">PARTIDOS GRUPO A</h1>
-                            <ul class="list-group">
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/rus.png" class="img-flag"> Rusia 18:00 Arabia Saudita <img src="img/flags/ksa.png" class="img-flag"> 
-                                </li>
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/egy.png" class="img-flag"> Egipto 17:00 Uruguay <img src="img/flags/uru.png" class="img-flag"> 
-                                </li>
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/rus.png" class="img-flag"> Rusia 21:00 Egipto <img src="img/flags/egy.png" class="img-flag"> 
-                                </li>
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/uru.png" class="img-flag"> Uruguay 18:00 Arabia Saudita <img src="img/flags/ksa.png" class="img-flag"> 
-                                </li>
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/ksa.png" class="img-flag"> Arabia Saudita 17:00 Egipto <img src="img/flags/egy.png" class="img-flag"> 
-                                </li>
-                                <li class="list-group-item partido">
-                                    <img src="img/flags/uru.png" class="img-flag"> Uruguay 18:00 Rusia <img src="img/flags/rus.png" class="img-flag">
-                                </li>
-                            </ul>
+                            <div id="accordion">
+                                <ul class="list-group">
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/rus.png" class="img-flag"> <span class="equipo">Rusia</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    18:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/ksa.png" class="img-flag"><span class="equipo">Arabia Saudita</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse1" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido1">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/egy.png" class="img-flag"> <span class="equipo">Egipto</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    17:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/uru.png" class="img-flag"><span class="equipo">Uruguay</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse2">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse2" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido2">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/rus.png" class="img-flag"> <span class="equipo">Rusia</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    21:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/egy.png" class="img-flag"><span class="equipo">Egipto</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse3">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse3" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido1">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/uru.png" class="img-flag"> <span class="equipo">Uruguay</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    18:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/ksa.png" class="img-flag"><span class="equipo">Arabia Saudita</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse4">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse4" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido1">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/ksa.png" class="img-flag"> <span class="equipo">Arabia Saudita</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    17:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/egy.png" class="img-flag"><span class="equipo">Egipto</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse5">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse5" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido1">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item partido">    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-3 offset-1">
+                                                    <img src="img/flags/uru.png" class="img-flag"> <span class="equipo">Uruguay</span>
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-2 text-center">
+                                                    18:00
+                                                </div>
+                                                <div class="col-1 text-center">
+                                                    <span>(-)</span>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="d-flex flex-row-reverse">
+                                                        <img src="img/flags/rus.png" class="img-flag"><span class="equipo">Rusia</span>
+                                                    </div>                                                
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse6">Agregar pronóstico</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="collapse6" data-parent="#accordion">
+                                            <div class="card card-body">
+                                                <form id="form-partido1">
+                                                    <div class="row">
+                                                        <div class="col-3 offset-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-3 text-center">
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Goles</label>
+                                                                <select class="form-control" id="exampleFormControlSelect2">
+                                                                    <option>0</option>
+                                                                    <option>1</option>
+                                                                    <option>2</option>
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                    <option>5</option>
+                                                                    <option>6</option>
+                                                                    <option>7</option>
+                                                                    <option>8</option>
+                                                                    <option>9</option>
+                                                                    <option>10</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-center">
+                                                            <button type="button" class="btn btn-primary boton-pronostico">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -320,7 +766,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="modal fade" id="modal-equipo5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -338,7 +784,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="modal fade" id="modal-equipo6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -356,7 +802,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="modal fade" id="modal-equipo7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -374,7 +820,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="modal fade" id="modal-equipo8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -413,5 +859,7 @@
         <script src="js/fontawesome-all.js"></script>
         <!--  Construcción página -->
         <script src="js/buildpage.js"></script>
+
+        <script src="js/jquery.tablesorter.js"></script>
     </body>
 </html>
