@@ -5,30 +5,30 @@
                     {
                         "image": "egy.png",
                         "name": "Egipto",
-                        "description": "Los Faraones regresarán a la cita mundial tras 28 años de ausencia, luego de disputar las dos ediciones organizadas por Italia (1934 y 1990).",
+                        "description": "Los Faraones regresarÃ¡n a la cita mundial tras 28 aÃ±os de ausencia, luego de disputar las dos ediciones organizadas por Italia (1934 y 1990).",
                         "group": "A",
-                        "continent": "África"
+                        "continent": "Ã�frica"
                     },
                     {
                         "image": "rus.png",
                         "name": "Rusia",
-                        "description": "El país anfitrión de 2018 cayó en la primera fase en los tres Mundiales que ha disputado como Rusia (1994, 2002 y 2014). Su mejor resultado como Unión Soviética fue la plaza de semifinalista obtenida en Inglaterra 1966.",
+                        "description": "El paÃ­s anfitriÃ³n de 2018 cayÃ³ en la primera fase en los tres Mundiales que ha disputado como Rusia (1994, 2002 y 2014). Su mejor resultado como UniÃ³n SoviÃ©tica fue la plaza de semifinalista obtenida en Inglaterra 1966.",
                         "group": "A",
                         "continent": "Europa"
                     },
                     {
                         "image": "ksa.png",
                         "name": "Arabia Saudita",
-                        "description": "Rusia 2018 marcará la quinta participación de Arabia Saudí en una fase final mundialista, luego de disputar previamente las ediciones de EEUU 1994, Francia 1998, Corea/Japón 2002 y Alemania 2006.",
+                        "description": "Rusia 2018 marcarÃ¡ la quinta participaciÃ³n de Arabia SaudÃ­ en una fase final mundialista, luego de disputar previamente las ediciones de EEUU 1994, Francia 1998, Corea/JapÃ³n 2002 y Alemania 2006.",
                         "group": "A",
                         "continent": "Asia"
                     },
                     {
                         "image": "uru.png",
                         "name": "Uruguay",
-                        "description": "Uruguay se aseguró un lugar en la Copa Mundial de la FIFA Rusia 2018™ luego de vencer 4-2 a Bolivia en la última jornada del clasificatorio sudamericano. Si bien desde jornadas antes ya estaba cerca de sellar pasaje, tuvo que esperar al final y quedar en el segundo puesto de la eliminatoria.  ",
+                        "description": "Uruguay se asegurÃ³ un lugar en la Copa Mundial de la FIFA Rusia 2018â„¢ luego de vencer 4-2 a Bolivia en la Ãºltima jornada del clasificatorio sudamericano. Si bien desde jornadas antes ya estaba cerca de sellar pasaje, tuvo que esperar al final y quedar en el segundo puesto de la eliminatoria.  ",
                         "group": "A",
-                        "continent": "Sudámerica"
+                        "continent": "SudÃ¡merica"
                     }
                 ],
 
@@ -39,63 +39,501 @@
                 "fecha": "14 JUN."
             },
             {
-                "equipo1": "Rusia",
-                "equipo2": "Arabia Saudita",
-                "fecha": "14 JUN."
+                "equipo1": "Egipto",
+                "equipo2": "Uruguay",
+                "fecha": "15 JUN."
             },
             {
                 "equipo1": "Rusia",
-                "equipo2": "Arabia Saudita",
-                "fecha": "14 JUN."
+                "equipo2": "Egipto",
+                "fecha": "19 JUN."
             },
             {
-                "equipo1": "Rusia",
+                "equipo1": "Uruguay",
                 "equipo2": "Arabia Saudita",
-                "fecha": "14 JUN."
+                "fecha": "20 JUN."
             },
             {
-                "equipo1": "Rusia",
-                "equipo2": "Arabia Saudita",
-                "fecha": "14 JUN."
+                "equipo1": "Uruguay",
+                "equipo2": "Rusia",
+                "fecha": "25 JUN."
             },
             {
-                "equipo1": "Rusia",
-                "equipo2": "Arabia Saudita",
-                "fecha": "14 JUN."
+                "equipo1": "Arabia Saudita",
+                "equipo2": "Egipto",
+                "fecha": "25 JUN."
             }
         ]
     },
+    
     { 
         "teams": 
                 [
                     {
                         "image": "por.png",
                         "name": "Portugal",
-                        "description": "Los vigentes campeones de Europa sellaron billete directo a Rusia 2018, la que será la séptima Copa Mundial de la FIFA de su historia. ",
+                        "description": "Los vigentes campeones de Europa sellaron billete directo a Rusia 2018, la que serÃ¡ la sÃ©ptima Copa Mundial de la FIFA de su historia. ",
                         "group": "B",
                         "continent": "Europa"
                     },
                     {
                         "image": "esp.png",
-                        "name": "España",
-                        "description": "La Roja, campeona del mundo en Sudáfrica 2010, clasificó para su 15ª Copa Mundial de la FIFA como ganadora invicta del grupo G de las eliminatorias europeas a Rusia 2018.",
+                        "name": "EspaÃ±a",
+                        "description": "La Roja, campeona del mundo en SudÃ¡frica 2010, clasificÃ³ para su 15Âª Copa Mundial de la FIFA como ganadora invicta del grupo G de las eliminatorias europeas a Rusia 2018.",
                         "group": "B",
                         "continent": "Europa"
                     },
                     {
                         "image": "mar.png",
                         "name": "Marruecos",
-                        "description": "Marruecos disputará en Rusia 2018 su quinta Copa Mundial de la FIFA™, a la que vuelve después de 20 años de ausencia. Los octavos de México 1986 son su techo mundialista, un objetivo a buen seguro motivante para una generación con amplia experiencia en clubes europeos.",
+                        "description": "Marruecos disputarÃ¡ en Rusia 2018 su quinta Copa Mundial de la FIFAâ„¢, a la que vuelve despuÃ©s de 20 aÃ±os de ausencia. Los octavos de MÃ©xico 1986 son su techo mundialista, un objetivo a buen seguro motivante para una generaciÃ³n con amplia experiencia en clubes europeos.",
                         "group": "B",
-                        "continent": "África"
+                        "continent": "Ã�frica"
                     },
                     {
                         "image": "irn.png",
-                        "name": "RI de Irán",
-                        "description": "Irán es una de las potencias tradicionales del fútbol asiático, y lo ha vuelto a demostrar clasificándose por quinta vez para la Copa Mundial de la FIFA™. El equipo Melli lo ha hecho además como primera selección de Asia en conseguir su billete a Rusia 2018.",
+                        "name": "RI de IrÃ¡n",
+                        "description": "IrÃ¡n es una de las potencias tradicionales del fÃºtbol asiÃ¡tico, y lo ha vuelto a demostrar clasificÃ¡ndose por quinta vez para la Copa Mundial de la FIFAâ„¢. El equipo Melli lo ha hecho ademÃ¡s como primera selecciÃ³n de Asia en conseguir su billete a Rusia 2018.",
                         "group": "B",
                         "continent": "Asia"
                     }
-                ]
-    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Marruecos",
+                "equipo2": "RI de IrÃ¡n",
+                "fecha": "15 JUN."
+            },
+            {
+                "equipo1": "Potugal",
+                "equipo2": "EspaÃ±a",
+                "fecha": "15 JUN."
+            },
+            {
+                "equipo1": "Portugal",
+                "equipo2": "Marruecos",
+                "fecha": "20 JUN."
+            },
+            {
+                "equipo1": "RI de IrÃ¡n",
+                "equipo2": "EspaÃ±a",
+                "fecha": "20 JUN."
+            },
+            {
+                "equipo1": "RI de IrÃ¡n",
+                "equipo2": "Potugal",
+                "fecha": "25 JUN."
+            },
+            {
+                "equipo1": "EspaÃ±a",
+                "equipo2": "Marruecos",
+                "fecha": "25 JUN."
+            }
+        ]
+    },
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "aus.png",
+                        "name": "Australia",
+                        "description": "Australia hizo su debut en una Copa Mundial de la FIFA en 1974, y si bien debió esperar hasta Alemania 2006 para regresar a la máxima cita de la categoría, no ha vuelto a faltar desde ese entonces.",
+                        "group": "C",
+                        "continent": "Oceanía"
+                    },
+                    {
+                        "image": "den.png",
+                        "name": "Dinamarca",
+                        "description": "Rusia 2018 marcará la quinta participación de Dinamarca en una Copa Mundial de la FIFA. La primera participación de los daneses fue en México 1986, mientras que la última había sido aquella de Sudáfrica 2010.",
+                        "group": "C",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "fra.png",
+                        "name": "Francia",
+                        "description": "Con una joven y talentosa generación que se terminó subcampeona de la última Eurocopa, Francia ha sellado el pasaporte a la 15ª Copa Mundial de la FIFA de su historia.",
+                        "group": "C",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "per.png",
+                        "name": "Peru",
+                        "description": "De la mano de seleccionador Ricardo Gareca y de un talentoso grupo de futbolistas, Perú se clasificó para la Copa Mundial de la FIFA Rusia 2018, donde pondrá fin a racha de 36 años sin disputar una fase final.",
+                        "group": "C",
+                        "continent": "SudÃ¡merica"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Francia",
+                "equipo2": "Australia",
+                "fecha": "16 JUN."
+            },
+            {
+                "equipo1": "Peru",
+                "equipo2": "Dinamarca",
+                "fecha": "16 JUN."
+            },
+            {
+                "equipo1": "Dinamarca",
+                "equipo2": "Australia",
+                "fecha": "21 JUN."
+            },
+            {
+                "equipo1": "Francia",
+                "equipo2": "Peru",
+                "fecha": "21 JUN."
+            },
+            {
+                "equipo1": "Dinamarca",
+                "equipo2": "Francia",
+                "fecha": "26 JUN."
+            },
+            {
+                "equipo1": "Australia",
+                "equipo2": "Peru",
+                "fecha": "25 JUN."
+            }
+        ]
+    },
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "arg.png",
+                        "name": "Argentina",
+                        "description": "Argentina certificó su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras vencer 3-1 a domicilio a Ecuador en la última jornada del clasificatorio sudamericano. La valiosa victoria les permitió cerrar en el tercer puesto de las eliminatorias regionales.",
+                        "group": "D",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "isl.png",
+                        "name": "Islandia",
+                        "description": "De farolillo rojo de su grupo en el camino a Sudáfrica 2010 a disputar el repechaje para Brasil 2014, hasta clasificar a Rusia 2018, la primera Copa Mundial de su historia. El fútbol islandés está de moda.",
+                        "group": "D",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "cro.png",
+                        "name": "Croacia",
+                        "description": "Rusia 2018 será la quinta participación de Croacia en una Copa Mundial. En su estreno mundialista en 1998, los Vatreni alcanzaron las semifinales y se subió al tercer escalón del podio. En Corea/Japón 2002, Alemania 2006 y Brasil 2014, cayeron en la fase de grupos.",
+                        "group": "D",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "nga.png",
+                        "name": "Nigeria",
+                        "description": "De la mano de seleccionador Ricardo Gareca y de un talentoso grupo de futbolistas, Perú se clasificó para la Copa Mundial de la FIFA Rusia 2018, donde pondrá fin a racha de 36 años sin disputar una fase final.",
+                        "group": "D",
+                        "continent": "Ã�frica"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Argentina",
+                "equipo2": "Islandia",
+                "fecha": "16 JUN."
+            },
+            {
+                "equipo1": "Croacia",
+                "equipo2": "Nigeria",
+                "fecha": "16 JUN."
+            },
+            {
+                "equipo1": "Argentina",
+                "equipo2": "Croacia",
+                "fecha": "21 JUN."
+            },
+            {
+                "equipo1": "Nigeria",
+                "equipo2": "Islandia",
+                "fecha": "22 JUN."
+            },
+            {
+                "equipo1": "Nigeria",
+                "equipo2": "Argentina",
+                "fecha": "26 JUN."
+            },
+            {
+                "equipo1": "Islandia",
+                "equipo2": "Croacia",
+                "fecha": "26 JUN."
+            }
+        ]
+    },
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "bra.png",
+                        "name": "Brasil",
+                        "description": "Brasil, único país en disputar las 20 ediciones de la Copa Mundial de la FIFA™ celebradas hasta ahora, y pentaganador del torneo, se ha convertido en el primer equipo de CONMEBOL en conseguir la clasificación a Rusia 2018.",
+                        "group": "E",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "crc.png",
+                        "name": "Costa Rica",
+                        "description": "Costa Rica aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras igualar 1-1 con Honduras en la penúltima jornada del hexagonal final de CONCACAF.",
+                        "group": "E",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "sui.png",
+                        "name": "Suiza",
+                        "description": "Suiza paticipará en su undécima Copa Mundial de la FIFA™, cuarta de forma consecutiva. Su récord en el torneo fueron los cuartos de final en tres ocasiones: 1934, 1938 y 1954.",
+                        "group": "E",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "srb.png",
+                        "name": "Serbia",
+                        "description": "El primer clasificatorio mundialista que Serbia jugó bajo su nombre actual fue el de Sudáfrica 2010, y logró clasificarse para la gran cita. Rusia 2018 será su segunda participación en una Copa Mundial.",
+                        "group": "E",
+                        "continent": "Europa"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Costa Rica",
+                "equipo2": "Serbia",
+                "fecha": "17 JUN."
+            },
+            {
+                "equipo1": "Brasil",
+                "equipo2": "Suiza",
+                "fecha": "17 JUN."
+            },
+            {
+                "equipo1": "Brasil",
+                "equipo2": "Costa Rica",
+                "fecha": "22 JUN."
+            },
+            {
+                "equipo1": "Serbia",
+                "equipo2": "Suiza",
+                "fecha": "22 JUN."
+            },
+            {
+                "equipo1": "Serbia",
+                "equipo2": "Brasil",
+                "fecha": "27 JUN."
+            },
+            {
+                "equipo1": "Serbia",
+                "equipo2": "Costa Rica",
+                "fecha": "27 JUN."
+            }
+        ]
+    },
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "ger.png",
+                        "name": "Alemania",
+                        "description": "Alemania defenderá en Rusia 2018 el título de campeona mundial que conquistó por cuarta vez en Brasil 2014. La cita rusa será su 19ª participación en una Copa Mundial de la FIFA.",
+                        "group": "F",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "kor.png",
+                        "name": "Corea del Sur",
+                        "description": "La República de Corea es el país asiático con mayor éxito en la Copa Mundial de la FIFA™: llegó a semis en 2002 (en su propia casa) y en Rusia jugará su 10º fase final.",
+                        "group": "F",
+                        "continent": "Oceania"
+                    },
+                    {
+                        "image": "mex.png",
+                        "name": "Mejico",
+                        "description": "México es un habitual asistente a la Copa Mundial de la FIFA. S estrenó en la edición inaugural de Uruguay 1930, y desde entonces ha participado en 14 ediciones, que serán 15 en Rusia 2018, su séptimo mundial consecutivo.",
+                        "group": "F",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "swe.png",
+                        "name": "Suecia",
+                        "description": "Suecia alcanzó su momento cumbre en la Copa Mundial de la FIFA en los años 50, cuando terminó tercera en Brasil 1950 y llegó a la gran final de la edición celebrada en su propio país en 1958.",
+                        "group": "F",
+                        "continent": "Europa"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Alemania",
+                "equipo2": "Mejico",
+                "fecha": "17 JUN."
+            },
+            {
+                "equipo1": "Suecia",
+                "equipo2": "Corea del Sur",
+                "fecha": "18 JUN."
+            },
+            {
+                "equipo1": "Corea del Sur",
+                "equipo2": "Mejico",
+                "fecha": "23 JUN."
+            },
+            {
+                "equipo1": "Alemania",
+                "equipo2": "Suecia",
+                "fecha": "23 JUN."
+            },
+            {
+                "equipo1": "Mejico",
+                "equipo2": "Suecia",
+                "fecha": "27 JUN."
+            },
+            {
+                "equipo1": "Corea del Sur",
+                "equipo2": "Alemania",
+                "fecha": "27 JUN."
+            }
+        ]
+    },
+    
+    
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "bel.png",
+                        "name": "Belgica",
+                        "description": "Bélgica no faltó a ninguna cita entre los grandes entre 1982 y 2002, antes de padecer una sequía que duró doce años. Regresó al primer plano en Brasil 2014 y ha vuelto a clasificarse para Rusia 2018.",
+                        "group": "G",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "eng.png",
+                        "name": "Inglaterra",
+                        "description": "Inglaterra, que se proclamó campeona del mundo en la edición de la que fue anfitriona en 1966, disputará en Rusia la 15ª Copa Mundial de su historia.",
+                        "group": "G",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "pan.png",
+                        "name": "Panama",
+                        "description": "Panamá aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras vencer 2-1 a Costa Rica en la última jornada del hexagonal final de CONCACAF. Gracias a esto, los Canaleros se quedaron con el último boleto de la Zona Norte, Centroamérica y Caribe.",
+                        "group": "G",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "tun.png",
+                        "name": "Tunez",
+                        "description": "Luego de varios años de altibajos, Túnez participará en su quinta Copa Mundial de la FIFA™. Aunque nunca ha superado la primera fase, llevará grabado para siempre su condición de primer equipo africano en conseguir una victoria mundialista (ante México, 3-1, en Argentina 1978).",
+                        "group": "G",
+                        "continent": "Ã�frica"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Belgica",
+                "equipo2": "Panama",
+                "fecha": "18 JUN."
+            },
+            {
+                "equipo1": "Tunez",
+                "equipo2": "Inglaterra",
+                "fecha": "18 JUN."
+            },
+            {
+                "equipo1": "Belgica",
+                "equipo2": "Tunez",
+                "fecha": "23 JUN."
+            },
+            {
+                "equipo1": "Inglaterra",
+                "equipo2": "Panama",
+                "fecha": "24 JUN."
+            },
+            {
+                "equipo1": "Panama",
+                "equipo2": "Tunez",
+                "fecha": "28 JUN."
+            },
+            {
+                "equipo1": "Inglaterra",
+                "equipo2": "Belgica",
+                "fecha": "28 JUN."
+            }
+        ]
+    },
+    
+    { 
+        "teams": 
+                [
+                    {
+                        "image": "col.png",
+                        "name": "Colombia",
+                        "description": "Colombia aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras igualar 1-1 con Perú en la última jornada del clasificatorio sudamericano. El valioso punto les permitió cerrar en el cuarto puesto de las eliminatorias y con el último pasaje directo a la justa mundialista.",
+                        "group": "H",
+                        "continent": "SudÃ¡merica"
+                    },
+                    {
+                        "image": "jpn.png",
+                        "name": "Japon",
+                        "description": "Japón ha confirmado su status de potencia del fútbol asiático y se ha clasificado para la Copa Mundial de la FIFA Rusia 2018™. Será su sexta fase final.",
+                        "group": "H",
+                        "continent": "Oceania"
+                    },
+                    {
+                        "image": "pol.png",
+                        "name": "Polinia",
+                        "description": "Robert Lewandowski, con la friolera de 16 goles en esta eliminatoria, ha sido la pieza clave en la clasificación de Polonia para la que será la 8ª Copa Mundial de la FIFA , la de Rusia 2018.",
+                        "group": "H",
+                        "continent": "Europa"
+                    },
+                    {
+                        "image": "sen.png",
+                        "name": "Senegal",
+                        "description": "Rusia 2018 marcará la segunda participación de los Leones de Taranga en una Copa Mundial de la FIFA, luego de aquel estelar debut en Corea/Japón 2002, cuando alcanzaron sorpresivamente los cuartos de final.",
+                        "group": "H",
+                        "continent": "Ã�frica"
+                    }
+                ],
+
+        "matches": [
+            {
+                "equipo1": "Colombia",
+                "equipo2": "Japon",
+                "fecha": "19 JUN."
+            },
+            {
+                "equipo1": "Polinia",
+                "equipo2": "Senegal",
+                "fecha": "19 JUN."
+            },
+            {
+                "equipo1": "Japon",
+                "equipo2": "Senegal",
+                "fecha": "24 JUN."
+            },
+            {
+                "equipo1": "Polinia",
+                "equipo2": "Colombia",
+                "fecha": "24 JUN."
+            },
+            {
+                "equipo1": "Japon",
+                "equipo2": "Polinia",
+                "fecha": "28 JUN."
+            },
+            {
+                "equipo1": "Senegal",
+                "equipo2": "Colombia",
+                "fecha": "28 JUN."
+            }
+        ]
+    },
 ]
