@@ -9,7 +9,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
 
         <!-- Estilo personalizado CSS -->
-        <link href="css/estilo.css" rel="stylesheet">
+        <link id="pagestyle" rel="stylesheet" href="css/estilo.css">
 
         <!-- Page icon -->
         <link rel="icon" 
@@ -45,8 +45,8 @@
                                             Tema
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Tema 1</a>
-                                            <a class="dropdown-item" href="#">Tema 2</a>
+                                            <a class="dropdown-item" href="#" onclick="cambiarEstilo('css/estilo.css')">Tema 1</a>
+                                            <a class="dropdown-item" href="#" onclick="cambiarEstilo('css/estilo2.css')">Tema 2</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -847,6 +847,9 @@
             </div>
         </footer>
 
+		
+    	<!-- Cambio de Estilos -->
+		<script src="js/cambiarEstilos.js"></script>
         <!-- Optional JavaScript -->
         <!-- jQuery first then Bootstrap JS -->
         <script src="js/jquery-3.3.1.js"></script>
