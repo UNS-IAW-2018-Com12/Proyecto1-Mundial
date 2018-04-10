@@ -3,8 +3,6 @@ html, body {
 } 
 
 .encabezado {
-    background: url("../img/fondo.jpg") no-repeat;
-    background-size: cover;
     height: 43em;
     padding: 2em 1em;
     margin-bottom: 0;
@@ -32,7 +30,6 @@ html, body {
 }
 
 nav {
-    margin-top: 15em;
     margin-bottom: 3em;
 }
 
@@ -42,6 +39,12 @@ nav .nav-link {
     font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+}
+
+.logo-header {
+    height:15em;
+    width:12em;
+    margin-top: 7em;
 }
 
 nav .nav-link:hover {

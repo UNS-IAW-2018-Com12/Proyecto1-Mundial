@@ -39,7 +39,6 @@ function buildGroupTable(groupNumber, group) {
     buildTableHeader(groupNumber);
     $.each(group.teams, function (team_index, team) {
         buildTableRow(groupNumber, team_index, team);
-        buildTeamModal(groupNumber, team_index, team);
     });
 }
 ;
@@ -200,85 +199,66 @@ function ordenarTabla(tablaID) {
     $("#" + tablaID).trigger("destroy");
 }
 
-function updateTable(tablaID, eq1, golesEq1, eq2, golesEq2) {
-    var filas = $("#" + tablaID).find('tr').slice(1);
-    var celdasEq1 = filas.filter("tr:contains('" + eq1 + "')").find('td');
-    var celdasEq2 = filas.filter("tr:contains('" + eq2 + "')").find('td');
+function incrementPJ(celdasEquipo) {
+    var pj = parseInt(celdasEquipo.eq(3).text());
+    pj++;
+    celdasEquipo.eq(3).text(pj);
+};
 
-    // puntos y pg pe pp
-    var puntos1 = parseInt(celdasEq1.eq(2).text());
-    var puntos2 = parseInt(celdasEq2.eq(2).text());
+function updateGoals(celdasEquipo, golesAFavor, golesEnContra) {
+    var gf = parseInt(celdasEquipo.eq(7).text());
+    var gc = parseInt(celdasEquipo.eq(8).text());
+    var dif = parseInt(celdasEquipo.eq(9).text());
+    gf += golesAFavor;
+    gc += golesEnContra;
+    dif = gf - gc;
+    celdasEquipo.eq(7).text(gf);
+    celdasEquipo.eq(8).text(gc);
+    celdasEquipo.eq(9).text(dif);
+};
 
-    if (golesEq1 < golesEq2) {
-        puntos2 += 3;
-        var pp1 = parseInt(celdasEq1.eq(6).text());
+function updatePointsAndMatches(celdasEquipo, golesAFavor, golesEnContra) {
+    var puntos = parseInt(celdasEquipo.eq(2).text());
+    if (golesAFavor < golesEnContra) {
+        var pp = parseInt(celdasEquipo.eq(6).text());
         pp1++;
-        celdasEq1.eq(6).text(pp1);
-        var pg2 = parseInt(celdasEq2.eq(4).text());
-        pg2++;
-        celdasEq2.eq(4).text(pg2);
+        celdasEquipo.eq(6).text(pp);
     } else {
-        if (golesEq1 > golesEq2) {
-            puntos1 += 3;
-            var pg1 = parseInt(celdasEq1.eq(4).text());
-            pg1++;
-            celdasEq1.eq(4).text(pg1);
-            var pp2 = parseInt(celdasEq2.eq(6).text());
-            pp2++;
-            celdasEq2.eq(6).text(pp2);
+        if (golesAFavor > golesEnContra) {
+            puntos += 3;
+            var pg = parseInt(celdasEquipo.eq(4).text());
+            pg++;
+            celdasEquipo.eq(4).text(pg);
         } else {
-            puntos1++;
-            puntos2++;
-            var pe1 = parseInt(celdasEq1.eq(5).text());
-            pe1++;
-            celdasEq1.eq(5).text(pe1);
-            var pe2 = parseInt(celdasEq2.eq(5).text());
-            pe2++;
-            celdasEq2.eq(5).text(pe2);
+            puntos++;
+            var pe = parseInt(celdasEquipo.eq(5).text());
+            pe++;
+            celdasEquipo.eq(5).text(pe);
         }
     }
+    celdasEquipo.eq(2).text(puntos);
+};
 
-    celdasEq1.eq(2).text(puntos1);
-    celdasEq2.eq(2).text(puntos2);
-
-    // pj
-    var pj1 = parseInt(celdasEq1.eq(3).text());
-    var pj2 = parseInt(celdasEq2.eq(3).text());
-    pj1++;
-    pj2++;
-    celdasEq1.eq(3).text(pj1);
-    celdasEq2.eq(3).text(pj2);
-
-    // goles 
-
-    var gf1 = parseInt(celdasEq1.eq(7).text());
-    var gf2 = parseInt(celdasEq2.eq(7).text());
-    var gc1 = parseInt(celdasEq1.eq(8).text());
-    var gc2 = parseInt(celdasEq2.eq(8).text());
-    var d1 = parseInt(celdasEq1.eq(9).text());
-    var d2 = parseInt(celdasEq2.eq(9).text());
-    gf1 += golesEq1;
-    gf2 += golesEq2;
-    gc1 += golesEq2;
-    gc2 += golesEq1;
-
-    d1 = gf1 - gc1;
-    d2 = gf2 - gc2;
-
-    celdasEq1.eq(7).text(gf1);
-    celdasEq1.eq(8).text(gc1);
-    celdasEq1.eq(9).text(d1);
-    celdasEq2.eq(7).text(gf2);
-    celdasEq2.eq(8).text(gc2);
-    celdasEq2.eq(9).text(d2);
-
-
-    ordenarTabla(tablaID);
-    
+function updatePositions(tablaID) {
     var filasTabla = $("#" + tablaID).find('tr').slice(1);
     $.each(filasTabla, function(index, fila) {
         $(fila).find("td").eq(0).text(index+1);
     });
+};
+
+function updateTable(tablaID, eq1, golesEq1, eq2, golesEq2) {
+    var filas = $("#" + tablaID).find('tr').slice(1);
+    var celdasEq1 = filas.filter("tr:contains('" + eq1 + "')").find('td');
+    var celdasEq2 = filas.filter("tr:contains('" + eq2 + "')").find('td');
+    
+    incrementPJ(celdasEq1);
+    incrementPJ(celdasEq2);
+    updatePointsAndMatches(celdasEq1, golesEq1, golesEq2);
+    updatePointsAndMatches(celdasEq2, golesEq2, golesEq1);
+    updateGoals(celdasEq1, golesEq1, golesEq2);
+    updateGoals(celdasEq2, golesEq2, golesEq1);
+    ordenarTabla(tablaID);
+    updatePositions(tablaID);
 }
 ;
 
