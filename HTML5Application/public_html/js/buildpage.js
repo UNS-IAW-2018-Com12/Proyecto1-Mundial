@@ -91,7 +91,7 @@ function buildMatchListItem(teams, groupNumber, matchNumber, match) {
     li.append(container);
     $(id_lista).append(li);
 
-    var collapse = $('<div class="collapse" data-parent="#accordion"></div>').attr("id", "collapse" + (groupNumber + 1) + "-" + (matchNumber + 1));
+    var collapse = $('<div class="collapse" data-parent="#accordion'+(groupNumber+1)+'"></div>').attr("id", "collapse" + (groupNumber + 1) + "-" + (matchNumber + 1));
     var card = $('<div class="card card-body">');
     var form = $('<form></form>');
     var row_form_1 = $('<div class="row"></div>');
