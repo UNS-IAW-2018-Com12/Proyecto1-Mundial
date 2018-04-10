@@ -5,30 +5,30 @@
                     {
                         "image": "egy.png",
                         "name": "Egipto",
-                        "description": "Los Faraones regresarÃ¡n a la cita mundial tras 28 aÃ±os de ausencia, luego de disputar las dos ediciones organizadas por Italia (1934 y 1990).",
+                        "description": "Los Faraones regresarán a la cita mundial tras 28 años de ausencia, luego de disputar las dos ediciones organizadas por Italia (1934 y 1990).",
                         "group": "A",
-                        "continent": "Ã�frica"
+                        "continent": "África"
                     },
                     {
                         "image": "rus.png",
                         "name": "Rusia",
-                        "description": "El paÃ­s anfitriÃ³n de 2018 cayÃ³ en la primera fase en los tres Mundiales que ha disputado como Rusia (1994, 2002 y 2014). Su mejor resultado como UniÃ³n SoviÃ©tica fue la plaza de semifinalista obtenida en Inglaterra 1966.",
+                        "description": "El país anfitrión de 2018 cayó en la primera fase en los tres Mundiales que ha disputado como Rusia (1994, 2002 y 2014). Su mejor resultado como Unión Soviética fue la plaza de semifinalista obtenida en Inglaterra 1966.",
                         "group": "A",
                         "continent": "Europa"
                     },
                     {
                         "image": "ksa.png",
                         "name": "Arabia Saudita",
-                        "description": "Rusia 2018 marcarÃ¡ la quinta participaciÃ³n de Arabia SaudÃ­ en una fase final mundialista, luego de disputar previamente las ediciones de EEUU 1994, Francia 1998, Corea/JapÃ³n 2002 y Alemania 2006.",
+                        "description": "Rusia 2018 marcará¡ la quinta participación de Arabia Saudita en una fase final mundialista, luego de disputar previamente las ediciones de EEUU 1994, Francia 1998, Corea/Japón 2002 y Alemania 2006.",
                         "group": "A",
                         "continent": "Asia"
                     },
                     {
                         "image": "uru.png",
                         "name": "Uruguay",
-                        "description": "Uruguay se asegurÃ³ un lugar en la Copa Mundial de la FIFA Rusia 2018â„¢ luego de vencer 4-2 a Bolivia en la Ãºltima jornada del clasificatorio sudamericano. Si bien desde jornadas antes ya estaba cerca de sellar pasaje, tuvo que esperar al final y quedar en el segundo puesto de la eliminatoria.  ",
+                        "description": "Uruguay se asegurá un lugar en la Copa Mundial de la FIFA Rusia 2018 luego de vencer 4-2 a Bolivia en la última jornada del clasificatorio sudamericano. Si bien desde jornadas antes ya estaba cerca de sellar pasaje, tuvo que esperar al final y quedar en el segundo puesto de la eliminatoria.  ",
                         "group": "A",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     }
                 ],
 
@@ -72,28 +72,28 @@
                     {
                         "image": "por.png",
                         "name": "Portugal",
-                        "description": "Los vigentes campeones de Europa sellaron billete directo a Rusia 2018, la que serÃ¡ la sÃ©ptima Copa Mundial de la FIFA de su historia. ",
+                        "description": "Los vigentes campeones de Europa sellaron billete directo a Rusia 2018, la que será la séptima Copa Mundial de la FIFA de su historia. ",
                         "group": "B",
                         "continent": "Europa"
                     },
                     {
                         "image": "esp.png",
-                        "name": "EspaÃ±a",
-                        "description": "La Roja, campeona del mundo en SudÃ¡frica 2010, clasificÃ³ para su 15Âª Copa Mundial de la FIFA como ganadora invicta del grupo G de las eliminatorias europeas a Rusia 2018.",
+                        "name": "España",
+                        "description": "La Roja, campeona del mundo en Sudáfrica 2010, clasificó para su 15ª Copa Mundial de la FIFA como ganadora invicta del grupo G de las eliminatorias europeas a Rusia 2018.",
                         "group": "B",
                         "continent": "Europa"
                     },
                     {
                         "image": "mar.png",
                         "name": "Marruecos",
-                        "description": "Marruecos disputarÃ¡ en Rusia 2018 su quinta Copa Mundial de la FIFAâ„¢, a la que vuelve despuÃ©s de 20 aÃ±os de ausencia. Los octavos de MÃ©xico 1986 son su techo mundialista, un objetivo a buen seguro motivante para una generaciÃ³n con amplia experiencia en clubes europeos.",
+                        "description": "Marruecos disputará en Rusia 2018 su quinta Copa Mundial de la FIFA, a la que vuelve después de 20 años de ausencia. Los octavos de México 1986 son su techo mundialista, un objetivo a buen seguro motivante para una generación con amplia experiencia en clubes europeos.",
                         "group": "B",
                         "continent": "Ã�frica"
                     },
                     {
                         "image": "irn.png",
-                        "name": "RI de IrÃ¡n",
-                        "description": "IrÃ¡n es una de las potencias tradicionales del fÃºtbol asiÃ¡tico, y lo ha vuelto a demostrar clasificÃ¡ndose por quinta vez para la Copa Mundial de la FIFAâ„¢. El equipo Melli lo ha hecho ademÃ¡s como primera selecciÃ³n de Asia en conseguir su billete a Rusia 2018.",
+                        "name": "RI de Irán",
+                        "description": "Irán es una de las potencias tradicionales del fútbol asiático, y lo ha vuelto a demostrar clasificándose por quinta vez para la Copa Mundial de la FIFA. El equipo Melli lo ha hecho además como primera selección de Asia en conseguir su billete a Rusia 2018.",
                         "group": "B",
                         "continent": "Asia"
                     }
@@ -102,12 +102,12 @@
         "matches": [
             {
                 "equipo1": "Marruecos",
-                "equipo2": "RI de IrÃ¡n",
+                "equipo2": "RI de Irán",
                 "fecha": "15 JUN."
             },
             {
-                "equipo1": "Potugal",
-                "equipo2": "EspaÃ±a",
+                "equipo1": "Portugal",
+                "equipo2": "España",
                 "fecha": "15 JUN."
             },
             {
@@ -116,17 +116,17 @@
                 "fecha": "20 JUN."
             },
             {
-                "equipo1": "RI de IrÃ¡n",
-                "equipo2": "EspaÃ±a",
+                "equipo1": "RI de Irán",
+                "equipo2": "España",
                 "fecha": "20 JUN."
             },
             {
-                "equipo1": "RI de IrÃ¡n",
-                "equipo2": "Potugal",
+                "equipo1": "RI de Irán",
+                "equipo2": "Portugal",
                 "fecha": "25 JUN."
             },
             {
-                "equipo1": "EspaÃ±a",
+                "equipo1": "España",
                 "equipo2": "Marruecos",
                 "fecha": "25 JUN."
             }
@@ -162,7 +162,7 @@
                         "name": "Peru",
                         "description": "De la mano de seleccionador Ricardo Gareca y de un talentoso grupo de futbolistas, Perú se clasificó para la Copa Mundial de la FIFA Rusia 2018, donde pondrá fin a racha de 36 años sin disputar una fase final.",
                         "group": "C",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     }
                 ],
 
@@ -208,7 +208,7 @@
                         "name": "Argentina",
                         "description": "Argentina certificó su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras vencer 3-1 a domicilio a Ecuador en la última jornada del clasificatorio sudamericano. La valiosa victoria les permitió cerrar en el tercer puesto de las eliminatorias regionales.",
                         "group": "D",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "isl.png",
@@ -229,7 +229,7 @@
                         "name": "Nigeria",
                         "description": "De la mano de seleccionador Ricardo Gareca y de un talentoso grupo de futbolistas, Perú se clasificó para la Copa Mundial de la FIFA Rusia 2018, donde pondrá fin a racha de 36 años sin disputar una fase final.",
                         "group": "D",
-                        "continent": "Ã�frica"
+                        "continent": "África"
                     }
                 ],
 
@@ -275,14 +275,14 @@
                         "name": "Brasil",
                         "description": "Brasil, único país en disputar las 20 ediciones de la Copa Mundial de la FIFA™ celebradas hasta ahora, y pentaganador del torneo, se ha convertido en el primer equipo de CONMEBOL en conseguir la clasificación a Rusia 2018.",
                         "group": "E",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "crc.png",
                         "name": "Costa Rica",
                         "description": "Costa Rica aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras igualar 1-1 con Honduras en la penúltima jornada del hexagonal final de CONCACAF.",
                         "group": "E",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "sui.png",
@@ -353,10 +353,10 @@
                     },
                     {
                         "image": "mex.png",
-                        "name": "Mejico",
-                        "description": "México es un habitual asistente a la Copa Mundial de la FIFA. S estrenó en la edición inaugural de Uruguay 1930, y desde entonces ha participado en 14 ediciones, que serán 15 en Rusia 2018, su séptimo mundial consecutivo.",
+                        "name": "Mexico",
+                        "description": "México es un habitual asistente a la Copa Mundial de la FIFA. Se estrenó en la edición inaugural de Uruguay 1930, y desde entonces ha participado en 14 ediciones, que serán 15 en Rusia 2018, su séptimo mundial consecutivo.",
                         "group": "F",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "swe.png",
@@ -370,7 +370,7 @@
         "matches": [
             {
                 "equipo1": "Alemania",
-                "equipo2": "Mejico",
+                "equipo2": "Mexico",
                 "fecha": "17 JUN."
             },
             {
@@ -380,7 +380,7 @@
             },
             {
                 "equipo1": "Corea del Sur",
-                "equipo2": "Mejico",
+                "equipo2": "Mexico",
                 "fecha": "23 JUN."
             },
             {
@@ -389,7 +389,7 @@
                 "fecha": "23 JUN."
             },
             {
-                "equipo1": "Mejico",
+                "equipo1": "Mexico",
                 "equipo2": "Suecia",
                 "fecha": "27 JUN."
             },
@@ -425,14 +425,14 @@
                         "name": "Panama",
                         "description": "Panamá aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras vencer 2-1 a Costa Rica en la última jornada del hexagonal final de CONCACAF. Gracias a esto, los Canaleros se quedaron con el último boleto de la Zona Norte, Centroamérica y Caribe.",
                         "group": "G",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "tun.png",
                         "name": "Tunez",
                         "description": "Luego de varios años de altibajos, Túnez participará en su quinta Copa Mundial de la FIFA™. Aunque nunca ha superado la primera fase, llevará grabado para siempre su condición de primer equipo africano en conseguir una victoria mundialista (ante México, 3-1, en Argentina 1978).",
                         "group": "G",
-                        "continent": "Ã�frica"
+                        "continent": "África"
                     }
                 ],
 
@@ -478,7 +478,7 @@
                         "name": "Colombia",
                         "description": "Colombia aseguró su clasificación para la Copa Mundial de la FIFA Rusia 2018™ tras igualar 1-1 con Perú en la última jornada del clasificatorio sudamericano. El valioso punto les permitió cerrar en el cuarto puesto de las eliminatorias y con el último pasaje directo a la justa mundialista.",
                         "group": "H",
-                        "continent": "SudÃ¡merica"
+                        "continent": "Sudámerica"
                     },
                     {
                         "image": "jpn.png",
@@ -499,7 +499,7 @@
                         "name": "Senegal",
                         "description": "Rusia 2018 marcará la segunda participación de los Leones de Taranga en una Copa Mundial de la FIFA, luego de aquel estelar debut en Corea/Japón 2002, cuando alcanzaron sorpresivamente los cuartos de final.",
                         "group": "H",
-                        "continent": "Ã�frica"
+                        "continent": "África"
                     }
                 ],
 
@@ -535,5 +535,5 @@
                 "fecha": "28 JUN."
             }
         ]
-    },
+    }
 ]
