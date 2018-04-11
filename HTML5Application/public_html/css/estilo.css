@@ -107,3 +107,7 @@ footer p {
     background-color: #2E56B1;
     color: white;
 }
+
+.score {
+    font-weight: bold;
+}

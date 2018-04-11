@@ -1,9 +1,32 @@
 function buildTeamModal(groupNumber, teamNumber, team) {
-    var img_bandera_modal = $("<img>").attr("src", "img/flags/" + team.image).addClass("img-fluid img-flag");
     var globalTeamNumber = (groupNumber * 4) + (teamNumber + 1);
-    var id_modal = "#modal-equipo" + globalTeamNumber;
-    $(id_modal + " .modal-title").append(img_bandera_modal).append(team.name);
-    $(id_modal + " .modal-body").append($("<p></p>").addClass("lead").append(team.description));
+    var modal = $('<div class="modal fade" tabindex="-1"></div>').attr("id", "modal-equipo"+globalTeamNumber);
+    var modalDialog = $('<div class="modal-dialog modal-dialog-centered"></div>');
+    var modalContent = $('<div class="modal-content"></div>');
+    var modalHeader = $('<div class="modal-header"></div>').addClass("d-flex justify-content-center");
+    var modalBody = $('<div class="modal-body"></div>');
+    var modalFooter = $('<div class="modal-footer"></div>');
+    var closeButton = $('<button type="button" class="btn btn-secondary" data-dismiss="modal">Volver</button>');
+    var img_bandera_modal = $("<img>").attr("src", "img/flags/" + team.image).addClass("img-fluid img-flag");
+    var description = $("<p></p>").addClass("lead").append(team.description);
+    
+    modal.append(modalDialog);
+    modalDialog.append(modalContent);
+    modalContent.append(modalHeader);
+    modalContent.append(modalBody);
+    modalContent.append(modalFooter);
+    modalHeader.append(img_bandera_modal);
+    modalBody.append(description);
+    modalFooter.append(closeButton);
+    
+    $('body').append(modal);
+}
+
+function buildTeamModals(groupNumber, group) {
+    $.each(group.teams, function(index_team, team) {
+        buildTeamModal(groupNumber, index_team, team);
+    });
+    
 }
 
 function buildTableHeader(groupNumber) {
@@ -69,9 +92,9 @@ function buildMatchListItem(teams, groupNumber, matchNumber, match) {
     var team2 = $('<span class="equipo pr-lg-2"></span>').append(match.equipo2);
 
     col_r1_1.append(flagImage1).append(team1);
-    col_r1_2.append($('<span>(-)</span>'));
+    col_r1_2.append($('<span class="score">(-)</span>'));
     col_r1_3.append(match.fecha);
-    col_r1_4.append($('<span>(-)</span>'));
+    col_r1_4.append($('<span class="score">(-)</span>'));
     col_r1_5.append(team2).append(flagImage2);
 
     row_1.append(col_r1_1);
@@ -148,6 +171,7 @@ function buildPage(data) {
     $.each(data, function (group_index, group) {
         buildGroupTable(group_index, group);
         buildMatchesList(group_index, group);
+        buildTeamModals(group_index, group);
     });
 }
 ;
