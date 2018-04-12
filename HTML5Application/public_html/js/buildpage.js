@@ -178,6 +178,7 @@ function buildPage(data) {
 
 $(document).ready(function () {
     $.getJSON("data/torneo.json", function (data) {
-        buildPage(data);
+        buildPage(data);      
+        verificarEstilo();
     });
 });
